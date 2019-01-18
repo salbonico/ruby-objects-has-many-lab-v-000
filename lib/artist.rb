@@ -9,7 +9,8 @@ def initialize(name)
 end
 
 def add_song(song)
-  self.songs << song
+  @songs << song
+  song.artist = self
 end
 
 
