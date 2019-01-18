@@ -11,7 +11,7 @@ end
 def add_post(post)
 @posts << post
 @@post_count << post
-
+post.author = self
 end
 
 
