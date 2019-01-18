@@ -12,5 +12,11 @@ def self.all
   @@all
 end
 
+def author_name
+if self.author == nil
+  return nil
+end
+  self.author.name
+end
 
 end
